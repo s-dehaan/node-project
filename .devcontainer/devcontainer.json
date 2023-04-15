@@ -3,13 +3,18 @@
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "app",
   "workspaceFolder": "/workspace",
-  "extensions": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "humao.rest-client",
-    "orta.vscode-jest",
-    "redhat.vscode-yaml"
-  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "humao.rest-client",
+        "orta.vscode-jest",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  
   "forwardPorts": [],
   "remoteUser": "vscode"
 }
